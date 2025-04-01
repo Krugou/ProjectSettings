@@ -9,16 +9,11 @@ module.exports = {
     'plugin:import/typescript',
   ],
   ignorePatterns: [
-    'dist',
-    '.eslintrc.cjs',
-    'nodejs',
-    'node_modules',
-    'jaksec',
-    'extra',
+   
     'ecosystem.config.cjs',
     'package-lock.json',
     'package.json',
-    'build-date.cjs',
+    
   ],
   parser: '@typescript-eslint/parser',
   plugins: ['react-refresh'],
